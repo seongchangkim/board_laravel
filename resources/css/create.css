@@ -1,0 +1,54 @@
+.pageTitle{
+    text-align: center;
+    margin: 20px 0;
+}
+.inputTitleForm{
+    margin-bottom: 10px;
+}
+.inputTitleForm [type="text"]{
+    width: 549px;
+    border-radius: 5px;
+}
+.inputContentForm{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.inputContentForm label{
+    margin-bottom : 5px;
+}
+.inputContentForm textarea{
+    border-radius: 5px;
+}
+.btnGroup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+    margin-left: 230px;
+}
+.submitBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 50px;
+    background: #1B6EEB;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: default;
+}
+.backBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 50px;
+    background: #EB6656;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: default;
+}

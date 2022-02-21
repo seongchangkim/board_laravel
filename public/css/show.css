@@ -1,0 +1,74 @@
+.boardDetail{
+    margin: 40px;
+}
+.boardDetailTop{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.boardDetailTopTitle{
+    display: flex;
+    margin-bottom: 10px;
+}
+.boardDetailTitle, .boardDetailReadCount{
+    background: #00008B;
+    text-align: center;
+    border-radius: 3px;
+    width: 80px;
+    margin-right: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.boardDetailTopReadCount{
+    display: flex;
+}
+.boardDetailMiddle{
+    margin-bottom: 15px;
+}
+.boardDetailContent{
+    min-height: 460px;
+}
+.btnGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.updateBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1B6EEB;
+    color: #ffffff;
+    width: 70px;
+    height: 50px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: default;
+}
+.deleteBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFA07A;
+    color: #ffffff;
+    width: 70px;
+    height: 50px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: default;
+}
+.backBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 50px;
+    background: #EB6656;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: default;
+}
+

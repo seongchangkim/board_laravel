@@ -1,0 +1,60 @@
+.list{
+    margin: 40px;
+}
+.boardTable{
+    overflow: auto;
+    min-height: 485px;
+}
+.listTop, .board{
+    display: flex;
+    margin: 20px 0;
+}
+.idTd, .readCountTd{
+    background: #00008B;
+    text-align: center;
+    border-radius: 3px;
+    width: 80px;
+    margin-right: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.id, .readCount{
+    width: 80px;
+    margin-right: 20px;
+    text-align: center;
+}
+.title, .createdAt{
+    width: 150px;
+    margin-right: 20px;
+    text-align: center;
+}
+.title > a{
+    text-decoration: none;
+    color: #000000;
+}
+.titleTd, .createdAtTd{
+    width: 150px;
+    background: #00008B;
+    text-align: center;
+    border-radius: 3px;
+    margin-right: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.btnGroup{
+    display: flex;
+    justify-content: end;
+}
+.createBtn{
+    background: #1B6EEB;
+    color: #ffffff;
+    padding: 10px;
+    width: 80px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: default;
+}
+
+
